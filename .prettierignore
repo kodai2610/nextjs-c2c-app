@@ -1,0 +1,23 @@
+# next.js
+/.next/
+/out/
+src/.next/cache/**/*
+
+# testing
+coverage
+
+# dependencies
+node_modules
+yarn.lock
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# typescript
+*.tsbuildinfo
+
+# 生成されたファイルは無視する
+src/api
